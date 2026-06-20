@@ -84,7 +84,7 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, delay: idx * 0.1 }}
-            className="group relative glass-card rounded-2xl overflow-hidden hover:border-accent/50 transition-colors duration-500 p-8"
+            className="group relative glass-card rounded-2xl overflow-hidden hover:border-accent/50 transition-colors duration-500 p-6 md:p-8 flex flex-col"
           >
             <div className="text-xs text-accent font-bold tracking-widest uppercase mb-4">
               {project.category}

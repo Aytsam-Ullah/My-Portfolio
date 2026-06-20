@@ -53,7 +53,7 @@ export default function Experience() {
         </h2>
       </motion.div>
 
-      <div className="relative border-l border-white/20 ml-4 md:ml-12 pl-8 md:pl-12 space-y-16">
+      <div className="relative border-l border-white/20 ml-4 md:ml-12 pl-6 md:pl-12 space-y-16">
         {timeline.map((item, index) => (
           <motion.div 
             key={index}
@@ -64,7 +64,7 @@ export default function Experience() {
             className="relative"
           >
             {/* Timeline Node */}
-            <div className="absolute -left-[41px] md:-left-[57px] top-1 w-4 h-4 rounded-full bg-accent text-glow shadow-[0_0_10px_rgba(220,38,38,0.8)]" />
+            <div className="absolute -left-[33px] md:-left-[57px] top-1 w-4 h-4 rounded-full bg-accent text-glow shadow-[0_0_10px_rgba(220,38,38,0.8)]" />
             
             <span className="text-accent text-sm font-bold tracking-widest">{item.year}</span>
             <h3 className="text-2xl font-bold text-white mt-2">{item.title}</h3>

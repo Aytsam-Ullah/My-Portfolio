@@ -51,12 +51,12 @@ export default function About() {
             </p>
           </div>
 
-          <div className="mt-12 flex gap-4">
-             <div className="glass px-6 py-4 rounded-lg flex flex-col">
+          <div className="mt-12 flex flex-col sm:flex-row gap-4">
+             <div className="glass px-6 py-4 rounded-lg flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-auto">
                 <span className="text-3xl font-black heading-font text-white text-glow">3.6</span>
                 <span className="text-xs text-white/50 tracking-wider">CGPA</span>
              </div>
-             <div className="glass px-6 py-4 rounded-lg flex flex-col">
+             <div className="glass px-6 py-4 rounded-lg flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-auto">
                 <span className="text-3xl font-black heading-font text-white text-glow">20+</span>
                 <span className="text-xs text-white/50 tracking-wider">PROJECTS</span>
              </div>

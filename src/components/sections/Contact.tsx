@@ -26,7 +26,7 @@ export default function Contact() {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="glass-card p-12 md:p-24 rounded-3xl relative overflow-hidden"
+        className="glass-card p-8 md:p-24 rounded-3xl relative overflow-hidden"
       >
         {/* Animated Background Gradients */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
@@ -42,10 +42,10 @@ export default function Contact() {
             />
         </div>
 
-        <h2 className="heading-font text-5xl md:text-7xl font-bold mb-8 text-white relative z-10">
+        <h2 className="heading-font text-4xl md:text-7xl font-bold mb-6 md:mb-8 text-white relative z-10">
           LET'S <span className="text-accent">CONNECT</span>
         </h2>
-        <p className="text-white/70 max-w-2xl mx-auto mb-12 relative z-10 text-lg">
+        <p className="text-white/70 max-w-2xl mx-auto mb-10 md:mb-12 relative z-10 text-base md:text-lg">
           Currently seeking software engineering or AI/ML internship opportunities. Let's build something exceptional together.
         </p>
 

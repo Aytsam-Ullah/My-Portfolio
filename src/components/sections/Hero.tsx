@@ -97,9 +97,9 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 5, duration: 1 }}
-        className="absolute bottom-10 right-10 flex flex-col items-center gap-2"
+        className="absolute bottom-10 right-4 md:right-10 flex flex-col items-center gap-2"
       >
-        <div className="w-[1px] h-16 bg-white/20 overflow-hidden relative">
+        <div className="w-[1px] h-12 md:h-16 bg-white/20 overflow-hidden relative">
             <motion.div 
                 animate={{ y: [0, 64] }} 
                 transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
